@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Avalon Nano Ultra Installer</title>
+    <style>
+        body { font-family: sans-serif; text-align: center; padding: 50px; background: #121212; color: white; }
+        .card { background: #1e1e1e; padding: 40px; border-radius: 20px; display: inline-block; border: 1px solid #333; }
+        h1 { color: #f0ad4e; }
+        p { color: #aaa; margin-bottom: 30px; }
+        esp-web-install-button { --esp-tools-button-color: #f0ad4e; }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Avalon Nano Ultra</h1>
+        <p>Connect your CYD to your computer via USB to begin flashing.</p>
+        
+        <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
+        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+
+        <div style="margin-top: 40px; font-size: 0.9em; text-align: left;">
+            <b>Instructions:</b>
+            <ol>
+                <li>Click Install and select the "USB Serial Port".</li>
+                <li>Wait for the progress bar to reach 100%.</li>
+                <li>The device will reboot into Trial Mode.</li>
+            </ol>
+        </div>
+    </div>
+</body>
+</html>
