@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="hero.png?v=2" width="450">
+  <img src="hero3.png?v=2" width="450">
 </p>
 
 # Avalon Nano Ultra Controller 🚀
