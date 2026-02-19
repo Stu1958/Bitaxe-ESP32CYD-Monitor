@@ -1,0 +1,12 @@
+{
+  "name": "Avalon Nano Ultra Controller",
+  "version": "1.0.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "Nano_con.bin", "offset": 0 }
+      ]
+    }
+  ]
+}
