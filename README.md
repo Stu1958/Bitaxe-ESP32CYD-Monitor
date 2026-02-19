@@ -1,5 +1,6 @@
-![Dashboard](https://github.com/Stu1958/Avalon-Nano-Ultra-Controller/blob/main/latest%20look.png?raw=true)
-# Avalon Nano Ultra Controller 🚀
+<p align="center">
+  <img src="https://github.com/Stu1958/Avalon-Nano-Ultra-Controller/blob/main/latest%20look.png?raw=true" width="500">
+</p>
 
 The professional touchscreen companion for your Avalon Nano 3/3S. Protect your ASIC with precision thermal management and high-fidelity real-time stats.
 
