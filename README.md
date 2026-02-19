@@ -1,3 +1,4 @@
+![Avalon Nano Ultra Dashboard](latest look.jpg)
 # Avalon Nano Ultra Controller 🚀
 
 The professional touchscreen companion for your Avalon Nano 3/3S. Protect your ASIC with precision thermal management and high-fidelity real-time stats.
