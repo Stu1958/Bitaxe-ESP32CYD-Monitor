@@ -3,7 +3,7 @@
 </p>
 
 # Avalon Nano 3 / 3S Ultra Controller 🚀
-### The Professional Touchscreen Companion for the "Cheap Yellow Display" (CYD)
+### ESP32 Cheap Yellow Display monitor / controller for tha Avalon Nano 3 /3S
 
 Turn your **ESP32-2432S028** (the popular Cheap Yellow Display) into a high-end thermal management hub for your Avalon Nano 3/3S. Protect your ASIC with precision monitoring and real-time stats.
 
