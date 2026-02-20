@@ -28,6 +28,17 @@ Standard Avalon firmware often prioritizes "quiet" operation, allowing internal 
 
 ---
 
+## ⚡ Quick Install (Trial Mode)
+Test the full interface for free. The trial functions for 30 minutes per boot. 
+> **Requirement:** Use Chrome, Edge, or Opera on a Desktop.
+
+1. **[CLICK HERE TO OPEN THE WEB INSTALLER](https://Stu1958.github.io/Avalon-Nano-Ultra-Controller/)**
+2. Connect your **CYD (ESP32-2432S028)** via USB.
+3. Click **Install** and select your device.
+4. Once finished, connect to the **NanoCtrl-AP** WiFi network (Password: `config123`) to configure.
+
+---
+
 ## 🔓 Get the Full License ($6.99)
 To unlock permanent monitoring and remove the 30-minute trial timer:
 
@@ -39,16 +50,6 @@ To unlock permanent monitoring and remove the 30-minute trial timer:
 
 ---
 
-## ⚡ Quick Install (Trial Mode)
-Test the full interface for free. The trial functions for 30 minutes per boot. 
-> **Requirement:** Use Chrome, Edge, or Opera on a Desktop.
-
-1. **[CLICK HERE TO OPEN THE WEB INSTALLER](https://Stu1958.github.io/Avalon-Nano-Ultra-Controller/)**
-2. Connect your **CYD (ESP32-2432S028)** via USB.
-3. Click **Install** and select your device.
-4. Once finished, connect to the **NanoCtrl-AP** WiFi network (Password: `config123`) to configure.
-
----
 
 ## 📘 User Manual & Operational Guide
 
