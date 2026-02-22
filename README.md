@@ -15,6 +15,7 @@ Turn your **ESP32-2432S028** into a high-end thermal management hub for your Ava
 Standard Avalon firmware often prioritizes "quiet" operation, allowing internal temperatures to climb as high as **85°C – 95°C**. For 5nm silicon chips, constant high heat is the primary cause of hardware failure and hashrate degradation. 
 
 * **Absolute Peak Monitoring (Tmax):** Monitors the **hottest single chip** in the array. Automatic fan control directly regulates Tmax based on your target temperature.
+* Target temperature will be maintained regardless of ambient temperature!
 * **The "Longevity" Target:** Dropping operating temps by **10°C** can significantly extend the lifespan of your hardware.
 * **Persistent Best Share:** Track your **Best Share** across miner reboots.
 * **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share (Session/All-time), Target Tmax, and Power in Watts.
@@ -23,11 +24,12 @@ Standard Avalon firmware often prioritizes "quiet" operation, allowing internal 
 ## 🖥️ Required Hardware
 Designed specifically for the **ESP32-2432S028-CYD**. 
 * **Affordable:** Often found for under $15 / £12.
-* **Customizable:** User-configurable for ILI9341 and ST7789 screens. 
+* **Universal:** User-configurable for CYD versions with ILI9341 and ST7789 screens. 
 * **Vibrant Display:** Nano 3S style circular dashboard for your desk.
 
 ## ⚡ Quick Install (Trial Mode)
-Test the full interface for free. The trial functions for **30 minutes per boot**.
+Test the full interface for free. The trial has full functionality for **60 minutes ** before having to re-enter your data, but you can reset it as many times as you want. License is only $5 giving your Nano 3 / 3S 24/7 unattended protection! Regardless pf ambient temperature.
+
 > **Requirement:** Use Chrome, Edge, or Opera on a Desktop.
 
 1.  **[CLICK HERE TO OPEN THE WEB INSTALLER](https://Stu1958.github.io/Avalon-Nano-Ultra-Controller/)**
@@ -37,8 +39,8 @@ Test the full interface for free. The trial functions for **30 minutes per boot*
 
 ---
 
-## 🔓 Get the Full License ($6.99)
-Unlock permanent monitoring and remove the 30-minute trial timer:
+## 🔓 Get the Full License ($5)
+Unlock permanent unattended monitoring 24/7.
 
 1.  Flash the **Trial Mode** firmware.
 2.  Note your **Device ID** (shown on the setup screen or WiFi Portal).
