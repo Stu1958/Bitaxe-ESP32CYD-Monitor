@@ -1,9 +1,7 @@
 <p align="center">
   <img src="hero3.png?v=2" width="450">
 </p>
-<p align="center">
-  <img src="inuse.jpg?v=2" width="450">
-</p>
+
 <p align="center">
   <img src="inuse2.jpg?v=2" width="450">
 </p>
@@ -52,7 +50,9 @@ Unlock permanent unattended monitoring 24/7.
 3.  Send **$6.99 USD** via PayPal to: `stuart.binns@ntlworld.com`
 4.  **⚠️ IMPORTANT:** Include your **Device ID** in the PayPal notes.
 5.  Your **License Key** will be emailed (usually within 1 hour).
-
+<p align="center">
+  <img src="inuse.jpg?v=2" width="450">
+</p>
 ---
 
 ## 📘 User Manual & Operational Guide
