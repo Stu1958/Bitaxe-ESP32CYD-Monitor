@@ -1,7 +1,12 @@
 <p align="center">
   <img src="hero3.png?v=2" width="450">
 </p>
-
+<p align="center">
+  <img src="hero3.png?v=2" width="450">
+</p>
+<p align="center">
+  <img src="hero3.png?v=2" width="450">
+</p>
 # Avalon Nano 3 / 3S Ultra Controller 🚀
 ### ESP32 Cheap Yellow Display (CYD) monitor and Tmax Temperature controller
 
