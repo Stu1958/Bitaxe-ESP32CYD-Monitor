@@ -1,87 +1,82 @@
+# Avalon Nano 3 / 3S Ultra Controller 🚀
+### Precision Thermal Management & Tmax Control for ESP32 (CYD)
+
+[![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)
+[![eBay Shop](https://img.shields.io/badge/Pre--Built-eBay_(UK_Only)-orange?style=for-the-badge&logo=ebay)](https://www.ebay.co.uk/itm/206082742830)
+[![License](https://img.shields.io/badge/Full_License-$5_USD-green?style=for-the-badge)](https://www.paypal.com/paypalme/stub1958/5USD)
+
 <p align="left">
   <img src="hero3.png?v=2" width="450"> &nbsp; <img src="inuse.jpg?v=2" width="450">
 </p>
 
-# Avalon Nano 3 / 3S Ultra Controller 🚀
-### ESP32 Cheap Yellow Display (CYD) monitor and Tmax Temperature controller
+**Protect your ASIC with precision monitoring.** This project transforms a $15 ESP32-CYD into a professional-grade thermal hub for your Avalon Nano 3/3S. 
 
-Turn your **ESP32-2432S028** into a high-end thermal management hub for your Avalon Nano 3/3S. Protect your ASIC with precision monitoring and real-time stats.
+---
 
-[Quick Install](#install) | [Buy License Key](#license) | [User Manual](#manual)
+## ⚡ Quick Start (No Cloning Required)
+**Test the full interface for free.** The trial offers 100% functionality so you can verify the thermal improvements before you buy.
+
+1.  **Open the [FREE Web Installer](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)** in Chrome, Edge, or Opera.
+2.  Connect your **CYD** via USB and click **Install**.
+3.  Connect to the **NanoCtrl-AP** WiFi (Password: `config123`) to enter your Miner IP.
+4.  **60-Minute Stress Test:** The controller will manage your Tmax automatically. Reset the trial as many times as you like for continued testing!
 
 ---
 
 ## 🛡️ Why This Controller? (ASIC Protection)
-Standard Avalon firmware often prioritizes "quiet" operation, allowing internal average temperatures to climb as high as **85°C – 95°C**. For 5nm silicon chips, constant high heat is the primary cause of hardware failure and hashrate degradation. 
+Standard Avalon firmware often prioritizes "quiet" operation, allowing internal temperatures to climb toward **85°C – 95°C**. For 5nm silicon chips, constant high heat is the primary cause of hardware failure and hashrate degradation.
 
-* **Absolute Peak Monitoring (Tmax):** Monitors the **hottest single chip** in the array. Automatic fan control directly regulates Tmax based on your target temperature.
-* **Stable Temps:** Target temperature will be maintained regardless of ambient temperature!
-* **The "Longevity" Target:** Dropping operating temps by **10°C** can significantly extend the lifespan of your hardware.
-* **Persistent Best Share:** Track your **Best Share** across miner reboots.
-* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share (Session/All-time), Target Tmax, and Power in Watts.
-* **Touchscreen Control:** On-screen buttons for changing Target Temp and Workmode. Hide/reveal controls with a long press. 
-
-## 🖥️ Required Hardware
-Designed specifically for the **ESP32-2432S028-CYD**. 
-* **Affordable:** Often found for under $15 / £12 or you may already own one.
-* **Universal:** User-configurable for CYD versions with ILI9341 and ST7789 screens. 
-* **Vibrant Display:** Nano 3S style circular dashboard for your desk.
+* **Absolute Peak Monitoring (Tmax):** Monitors the *hottest single chip* in the array. 
+* **Stable Temps:** Target temperature is maintained regardless of ambient room heat!
+* **The "Longevity" Target:** Dropping operating temps by 10°C+ can significantly extend your hardware's lifespan.
+* **Persistent Best Share:** Track your Best Share across miner reboots.
+* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share, Target Tmax, and Power in Watts.
+* **Touchscreen Control:** On-screen buttons for changing Target Temp and Workmode.
 
 ---
 
-<a name="install"></a>
-## ⚡ Quick Install (Trial Mode)
-Test the full interface for free. The trial has full functionality for **60 minutes** before having to re-enter your data, but you can reset it as many times as you want. License is only $5 or £3.75 giving your Nano 3 / 3S 24/7 unattended protection regardless of ambient temperature.
+## 📦 Choose Your Path
 
-> **Requirement:** Use Chrome, Edge, or Opera on a Desktop.
+### Option A: DIY License ($5 / £3.75)
+Perfect if you already own an ESP32-2432S028. Works globally.
+1. Flash the firmware via the Web Installer.
+2. Note your **Device ID** from the setup screen or WiFi Portal.
+3. Send **$5 USD / £3.75 GBP** via [PayPal](https://www.paypal.com/paypalme/stub1958/5USD).
+4. **IMPORTANT:** Include your **Device ID** in the PayPal notes. Your key is usually emailed within 1 hour.
 
-1. **[CLICK HERE TO OPEN THE WEB INSTALLER](https://Stu1958.github.io/Avalon-Nano-Ultra-Controller/)**
-2. Connect your **CYD** via USB.
-3. Click **Install** and select your device port.
-4. Connect to the **NanoCtrl-AP** WiFi (Password: `config123`) to configure.
-
----
-
-<a name="license"></a>
-## 🔓 Get the Full License ($5 / £3.75)
-Unlock permanent unattended monitoring 24/7.
-
-1. Flash the **Trial Mode** firmware.
-2. Note your **Device ID** (shown on the setup screen or WiFi Portal).
-3. Send **$5 USD or £3.75 GBP** via PayPal to: `stuart.binns@ntlworld.com`
-4. **⚠️ IMPORTANT:** Include your **Device ID** in the PayPal notes.
-5. Your **License Key** will be emailed (usually within 1 hour).
+### Option B: Plug & Play Hardware (£25) — UK ONLY 🇬🇧
+Don't want to flash firmware or source parts? 
+* Buy a fully built, licensed, and tested unit on **[eBay](https://www.ebay.co.uk/itm/206082742830)**.
+* Includes the hardware and the permanent license pre-installed. 
+* **Note:** Shipping to UK addresses only at this time.
 
 ---
 
-<a name="manual"></a>
-## 📘 User Manual & Operational Guide
+## 📘 Operational Guide
 
-### 📶 WiFi Manager Settings
 | Setting | Description |
 | :--- | :--- |
 | **Nano IP** | Local IP of your miner (e.g., `192.168.0.25`) |
 | **Target Temp** | Desired Tmax (60-85°C). System constrains to safe ranges. |
-| **Previous Best Diff** | Enter your all-time best share (e.g., `2.26G`) |
-| **Timezone Offset** | Your UTC offset (e.g., `-5`, `0`, `+1`) |
+| **Previous Best** | Enter your all-time best share (e.g., `2.26G`) |
+| **Timezone** | Your UTC offset (e.g., `-5`, `0`, `+1`) |
 
 ### 🎮 Pro-Tips
-* **Button Response:** The dashboard refreshes every **5 seconds**. Tap a button once and wait for the next refresh to see the change.
-* **WiFi Reset / Hide Buttons:** Hold anywhere on the central portion of the screen for **6 seconds** to toggle the buttons visibility. Hold for a further 5 seconds to clear the WiFi settings and restart to force the Setup portal.
-* **Factory Reset:** Hold the physical **BOOT button** (GPIO 0) on the side for **10 seconds** to wipe all settings.
+* **Touch Response:** The dashboard refreshes every **5 seconds**. Tap a button once and wait for the next refresh.
+* **Hide Controls:** Long-press (6 seconds) the center of the screen to toggle button visibility.
+* **Reset WiFi:** Continue holding (11 seconds total) to wipe WiFi settings and force the Setup portal.
+* **Factory Reset:** Hold the physical **BOOT button** (GPIO 0) on the side for 10 seconds to wipe all settings.
 
-### 🔍 Troubleshooting
+---
+
+## 🔍 Troubleshooting
 * **🔴 Red Status Dot:** Controller cannot reach the Nano IP. Check your network.
-* **🔥 Red TMax:** Hottest chip has exceeded your target by **8°C+**.
-* **⚠️ Trial Expired:** After 60 mins, the fan defaults to **65%** for safety and the CYD re-boots to setup.
+* **🔥 Red TMax:** Hottest chip has exceeded your target by 8°C+.
+* **⚠️ Trial Expired:** After 60 mins, the fan defaults to 65% for safety and the CYD re-boots to setup.
 
 ---
 
-### ⚖️ Disclaimer & Liability
-> Use at your own risk. While this software includes built-in thermal safeguards, it is provided "as-is." By installing, you agree that:
-> * **Hardware Responsibility:** You are responsible for the health of your Avalon Nano and ESP32.
-> * **No Liability:** The developer (Stu1958) is not liable for hardware damage, lost profits, or mining downtime.
-> * **Environment:** Ambient heat and dust are beyond software control. Monitor equipment during initial setup.
+## ⚖️ Disclaimer
+*Use at your own risk. This software is provided "as-is." The developer (Stu1958) is not liable for hardware damage, lost profits, or mining downtime. Please monitor equipment during initial setup.*
 
----
-*Developed by Stu1958. Proprietary software. All rights reserved.*
+**Developed by Stu1958. Proprietary software. All rights reserved.**
