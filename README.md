@@ -42,12 +42,12 @@ Test the full interface for free. The trial has full functionality for **60 minu
 
 ---
 
-## 🔓 Get the Full License ($5)
+## 🔓 Get the Full License ($5 / £3.75)
 Unlock permanent unattended monitoring 24/7.
 
 1.  Flash the **Trial Mode** firmware.
 2.  Note your **Device ID** (shown on the setup screen or WiFi Portal).
-3.  Send **$5 USD** via PayPal to: `stuart.binns@ntlworld.com`
+3.  Send **$5 USD or £3.75 GBP** via PayPal to: `stuart.binns@ntlworld.com`
 4.  **⚠️ IMPORTANT:** Include your **Device ID** in the PayPal notes.
 5.  Your **License Key** will be emailed (usually within 1 hour).
 <p align="center">
