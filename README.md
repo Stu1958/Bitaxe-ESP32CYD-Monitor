@@ -7,7 +7,24 @@ age <p align="left">
 
 Turn your **ESP32-2432S028** into a high-end thermal management hub for your Avalon Nano 3/3S. Protect your ASIC with precision monitoring and real-time stats.
 
-[Quick Install](#-quick-install-trial-mode) | [Buy License Key](#-get-the-full-license-699) | [User Manual](#-user-manual--operational-guide)
+[Quick Install](#install) | [Buy License Key](#license) | [User Manual](#manual)
+
+---
+
+<a name="install"></a>
+## ⚡ Quick Install (Trial Mode)
+Test the full interface for free...
+
+---
+
+<a name="license"></a>
+## 🔓 Get the Full License ($5 / £3.75)
+Unlock permanent unattended monitoring 24/7...
+
+---
+
+<a name="manual"></a>
+## 📘 User Manual & Operational Guide
 
 ---
 
@@ -70,7 +87,7 @@ Unlock permanent unattended monitoring 24/7.
 ### 🔍 Troubleshooting
 * **🔴 Red Status Dot:** Controller cannot reach the Nano IP. Check your network.
 * **🔥 Red TMax:** Hottest chip has exceeded your target by **8°C+**.
-* **⚠️ Trial Expired:** After 30 mins, the fan defaults to **65%** for safety and the CYD re-boots to setup.
+* **⚠️ Trial Expired:** After 60 mins, the fan defaults to **65%** for safety and the CYD re-boots to setup.
 
 ---
 
