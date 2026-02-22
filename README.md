@@ -31,7 +31,7 @@ Designed specifically for the **ESP32-2432S028-CYD**.
 * **Vibrant Display:** Nano 3S style circular dashboard for your desk.
 
 ## ⚡ Quick Install (Trial Mode)
-Test the full interface for free. The trial has full functionality for **60 minutes ** before having to re-enter your data, but you can reset it as many times as you want. License is only $5 giving your Nano 3 / 3S 24/7 unattended protection! Regardless pf ambient temperature.
+Test the full interface for free. The trial has full functionality for **60 minutes ** before having to re-enter your data, but you can reset it as many times as you want. License is only $5 or £3.75 giving your Nano 3 / 3S 24/7 unattended protection! Regardless pf ambient temperature.
 
 > **Requirement:** Use Chrome, Edge, or Opera on a Desktop.
 
