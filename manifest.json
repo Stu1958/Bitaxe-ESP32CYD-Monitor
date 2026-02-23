@@ -5,7 +5,8 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "Nano_con.bin", "offset": 0 }
+        {  "path": "https://github.com/Stu1958/Avalon-Nano-Ultra-Controller/releases/download/V1.0.0/Nano_con.bin", 
+    "offset": 0  }
       ]
     }
   ]
