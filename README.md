@@ -46,7 +46,7 @@ Perfect if you already own an ESP32-2432S028. Works globally.
 
 ### Option B: Plug & Play Hardware (£25) — UK ONLY 🇬🇧
 Don't want to flash firmware or source parts? 
-* Buy a fully built, licensed, and tested unit on **[eBay](https://www.ebay.co.uk/itm/206084391636)**.
+* Buy a fully built, licensed, and tested unit on **[eBay](https://www.ebay.co.uk/itm/206084391636?refresh=1)**.
 * Includes the hardware and the permanent license pre-installed. 
 * **Note:** Shipping to UK addresses only at this time.
 
