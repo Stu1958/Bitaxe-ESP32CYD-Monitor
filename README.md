@@ -18,9 +18,10 @@
 **Test the full interface for free.** The trial offers 100% functionality so you can verify the thermal improvements before you buy.
 
 1.  **Open the [FREE Web Installer](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)** in Chrome, Edge, or Opera.
-2.  Connect your **CYD** via USB and click **Install**.
-3.  Connect to the **NanoCtrl-AP** WiFi (Password: `config123`) to enter your Miner IP.
-4.  **60-Minute Stress Test:** The controller will manage your Tmax automatically. Reset the trial as many times as you like for continued testing!
+2.  Connect your **CYD** via USB and click **Install** folow prompts and flash the CYD in the usual way (hold boot then reset etc)
+3.  When installed connect to the **NanoCtrl-AP** WiFi (Password: `config123`) Open a browser to 192.168.4.1 and click Configure WiFi.
+4.  Enter your WiFi credentials, Nano name and IP address press save and the CYD will reboot and start managing your Nano's Tmax immediately.
+5.  **60-Minute Stress Test:** The controller will manage your Tmax automatically. Reset the trial as many times as you like for continued testing!
 
 ---
 
@@ -39,7 +40,7 @@ Standard Avalon firmware often prioritizes "quiet" operation, allowing internal 
 ## 📦 Choose Your Path
 
 ### Option A: DIY License ($5 / £3.75)
-Perfect if you already own an ESP32-2432S028. Works globally.
+Perfect if you already own an ESP32-2432S028. Works on most variants.
 1. Flash the firmware via the Web Installer.
 2. Note your **Device ID** from the setup screen or WiFi Portal.
 3. Send **$5 USD / £3.75 GBP** via [PayPal](https://www.paypal.com/paypalme/stub1958/5USD).
