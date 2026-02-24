@@ -1,5 +1,5 @@
 # Avalon Nano 3 / 3S Ultra Controller 🚀
-### Precision Thermal Management & Tmax Control runs on cheap ESP32 (CYD)
+### Precision Thermal Management & Tmax (hotspot) Control runs on cheap ESP32 (CYD)
 
 [![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)
 [![eBay Shop](https://img.shields.io/badge/Pre--Built-eBay_(UK_Only)-orange?style=for-the-badge&logo=ebay)](https://www.ebay.co.uk/itm/206084391636)
@@ -14,6 +14,17 @@
 
 ---
 
+## 🛡️ Why This Controller? (ASIC Protection)
+Standard Avalon firmware often prioritizes "quiet" operation, allowing internal temperatures to climb toward **85°C – 95°C**. For 5nm silicon chips, constant high heat is the primary cause of hardware failure and hashrate degradation.
+
+* **Absolute Peak Monitoring (Tmax):** Monitors the *hottest single chip* in the array. 
+* **Stable Temps:** Target temperature is maintained regardless of ambient temperature (within thermal limits)!
+* **The "Longevity" Target:** Dropping operating temps by 10°C+ can significantly extend your hardware's lifespan.
+* **Persistent Best Share:** Track your Best Share across miner reboots.
+* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share, Target Tmax, and Power in Watts.
+* **Touchscreen Control:** On-screen buttons for changing Target Temp and Workmode.
+---
+
 ## ⚡ Quick Start (No Cloning Required)
 **Test the full interface for free.** The trial offers 100% functionality so you can verify the thermal improvements before you buy.
 
@@ -22,19 +33,6 @@
 3.  When installed connect to the **NanoCtrl-AP** WiFi (Password: `config123`) Open a browser to 192.168.4.1 and click Configure WiFi.
 4.  Enter your WiFi credentials, Nano name and IP address press save and the CYD will reboot and start managing your Nano's Tmax immediately.
 5.  **60-Minute Stress Test:** The controller will manage your Tmax automatically. Reset the trial as many times as you like for continued testing!
-
----
-
-## 🛡️ Why This Controller? (ASIC Protection)
-Standard Avalon firmware often prioritizes "quiet" operation, allowing internal temperatures to climb toward **85°C – 95°C**. For 5nm silicon chips, constant high heat is the primary cause of hardware failure and hashrate degradation.
-
-* **Absolute Peak Monitoring (Tmax):** Monitors the *hottest single chip* in the array. 
-* **Stable Temps:** Target temperature is maintained regardless of ambient room heat!
-* **The "Longevity" Target:** Dropping operating temps by 10°C+ can significantly extend your hardware's lifespan.
-* **Persistent Best Share:** Track your Best Share across miner reboots.
-* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share, Target Tmax, and Power in Watts.
-* **Touchscreen Control:** On-screen buttons for changing Target Temp and Workmode.
-
 ---
 
 ## 📦 Choose Your Path
