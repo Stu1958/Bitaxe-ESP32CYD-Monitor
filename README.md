@@ -37,7 +37,7 @@ Standard Avalon firmware often prioritizes "quiet" operation, allowing internal 
 ### Scroll down for full instructions.
 ---
 
-## 📦 Choose Your Path
+## 📦 Choose Your Option
 
 ### Option A: DIY License ($5 / £3.75)
 Perfect if you already own an ESP32-2432S028. Works on most variants.
