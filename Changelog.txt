@@ -1,0 +1,13 @@
+Added two options in setup for different touch mapping. Flip x and Flip y. So if your touch acts as though it is 180 degree rotated from the LCD you would set both.
+
+Changed minimum fan speed to 15%
+
+Startup screen now verbose. WiFi connected, NTP connected, License state etc...
+
+Changed fan speed change rate from 5% to proportional
+
+Minor defect addressed: If Nano reboots Tmax can change to negative value from corrupt data but the CYD resyncs once the Nano has reconnected to network but even though all logic restarts cleanly "-" symbol on display persists - changed erase width on redraw.
+
+7 Second centre screen press toggles button visibility, continue to 12 seconds clears WiFi and reboots to setup (all other settings retained)
+
+Compatible with more CVD's ST7789, IlI9341, invert colours, Backlight GPIO all in setup.
