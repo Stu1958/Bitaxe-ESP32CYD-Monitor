@@ -1,6 +1,12 @@
 ## Changelog
 
 ### Added
+
+- Option in setup to display more Stats or Digital clock or both.
+  - Display Shares Accepted / Rejected followed by Uptime in days / hours
+  - Display digital clock  
+  - Or cycle both! every 3 - 10 seconds 
+
 - Two new setup options for touch mapping:
   - **Flip X**
   - **Flip Y**
