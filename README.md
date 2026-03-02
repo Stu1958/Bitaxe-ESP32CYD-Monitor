@@ -10,7 +10,7 @@
   <img src="hero3.png?v=2" width="450"> &nbsp; <img src="inuse.jpg?v=2" width="450">
 </p>
 
-**Protect your ASIC with precision monitoring.** This project transforms a $15 ESP32-CYD into a professional-grade thermal hub for your Avalon Nano 3/3S. 
+## **Protect your ASIC chips and extend your Nano3's lifespan with precision thermal monitoring.** This project transforms a $15 ESP32-CYD into a professional-grade thermal hub for your Avalon Nano 3/3S. 
 
 ---
 
@@ -21,7 +21,7 @@ Standard Avalon firmware often prioritizes "quiet" operation, allowing internal 
 * **Stable Temps:** Target temperature is maintained regardless of ambient temperature (within thermal limits)!
 * **The "Longevity" Target:** Dropping operating temps by 10°C+ can significantly extend your hardware's lifespan.
 * **Persistent Best Share:** Track your Best Share across miner reboots.
-* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share, Target Tmax, and Power in Watts.
+* **Dashboard:** Real-time Hashrate (with meter), Work Mode, Best Share, Target Tmax, Shares Accepted / Rejected, Uptime and Power in Watts.
 * **Touchscreen Control:** On-screen buttons for changing Target Temp and Workmode.
 ---
 
