@@ -1,4 +1,4 @@
-# 🌐 Web Updater User Guide
+# 🌐 ESP32 Updater User Guide
 
 This interface allows you to update your **Avalon Nano Ultra Controller** wirelessly from your phone or computer.
 
@@ -32,3 +32,4 @@ This interface allows you to update your **Avalon Nano Ultra Controller** wirele
 *   **Stuck at 0%?** Check your WiFi connection or try moving closer to the router.
 
 *   **Update Failed?** Refresh the page and ensure you are uploading a valid `.bin` file for the ESP32.
+
