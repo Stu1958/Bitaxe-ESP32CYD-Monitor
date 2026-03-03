@@ -11,6 +11,7 @@
 </p>
 
 ## **Protect your ASIC chips and extend your Nano3's lifespan with precision thermal monitoring.** This project transforms a $15 ESP32-CYD into a professional-grade thermal hub for your Avalon Nano 3/3S. 
+## **NEW Update procedure see full Instructions below!
 
 ---
 
