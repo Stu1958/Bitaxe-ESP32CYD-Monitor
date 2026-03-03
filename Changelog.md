@@ -2,6 +2,10 @@
 
 ### Added
 
+- ***New update procedure from 03/03/2026***
+  -If downloading for the first time use the Web flasher linked in the Readme
+  -For further updates use the esp32 web updater which will retain all your confured data, License etc
+  
 - Option in setup to display more Stats or Digital clock or both.
   - Display Shares Accepted / Rejected followed by Uptime in days / hours
   - Display digital clock  
