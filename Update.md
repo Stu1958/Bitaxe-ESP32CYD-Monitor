@@ -9,8 +9,8 @@ This interface allows you to update your **Avalon Nano Ultra Controller** wirele
 
 ### 2. Selecting the Firmware
 *   Click the **"Choose File"** (or "Browse") button.
-*   Locate and select the `.bin` file on your device. 
-    *   *Tip: In Arduino IDE, this is created via Sketch > Export Compiled Binary.*
+*   Locate and select the UpdateOnly.bin file you downloaded from the Github files section.
+  
 
 ### 3. Starting the Update
 *   Click the bright yellow **"START UPDATE"** button.
@@ -30,4 +30,5 @@ This interface allows you to update your **Avalon Nano Ultra Controller** wirele
 **Troubleshooting:**
 *   **Button doesn't respond?** Ensure you have selected a file before clicking.
 *   **Stuck at 0%?** Check your WiFi connection or try moving closer to the router.
+
 *   **Update Failed?** Refresh the page and ensure you are uploading a valid `.bin` file for the ESP32.
