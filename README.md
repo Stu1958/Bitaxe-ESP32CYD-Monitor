@@ -7,7 +7,8 @@
 
 ## **No cloning required! Use the Free trial Web flasher link above or below!**
 <p align="left">
-  <img src="image3.png?v=2" width="300"> &nbsp; <img src="image2.png?v=2" width="300">  &nbsp; <img src="inuse.jpg?v=2" width="300">
+  <img src="image3.png?v=2" width="450"> &nbsp; <img src="image2.png?v=2" width="450">  &nbsp; 
+  <img src="inuse.jpg?v=2" width="450"> &nbsp; <img src="inuse2.jpg?v=2" width="450">
 </p>
 
 ---
@@ -38,10 +39,11 @@ This project transforms a $15 ESP32-CYD into a **professional-grade 24/7 thermal
 
 ## 🆕 New: Self Update System
 
-After the initial flash from GitHub, the CYD now hosts a **built-in tiny web updater**:
+After the initial flash from GitHub, the CYD now hosts a **built-in web updater**:
 
 * Update firmware from any phone or PC browser  
-* Upload `.bin` file directly  
+* Upload `.bin` file directly over your network!
+* No USB connection needed no fiddly holding Boot / Reset etc.
 * Retains all license and configuration data  
 * Takes 15–45 seconds depending on WiFi  
 
