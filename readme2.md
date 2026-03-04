@@ -12,7 +12,7 @@
 
 ---
 
-## 🛡️ Protect Your ASIC Chips — Extend Your Nano3 Lifespan
+## 🛡️ Protect Your ASIC Chips — Extend Your Nano 3 / 3S Lifespan
 
 Standard Avalon firmware often prioritizes "quiet" operation, allowing temperatures to reach **85°C – 95°C**.  
 For 5nm silicon, **constant high heat is the primary cause of degradation and hardware failure**.  
@@ -45,7 +45,7 @@ After the initial flash from GitHub, the CYD now hosts a **built-in tiny web upd
 * Retains all license and configuration data  
 * Takes 15–45 seconds depending on WiFi  
 
-> See **Update.md** for full instructions.
+>## See **Update.md** for full instructions.
 
 ---
 
@@ -188,3 +188,4 @@ Provided “as-is.” Stu1958 not liable for damage, downtime, or lost profits.
 
 **Developed by Stu1958**  
 Proprietary Software — All Rights Reserved
+
