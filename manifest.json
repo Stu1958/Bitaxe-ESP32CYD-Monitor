@@ -5,7 +5,7 @@
     {
       "chipFamily": "ESP32",
       "parts": [
-        { "path": "docs/old/readme.txt", "offset": 0 }
+        { "path": "docs/old/readme2.txt", "offset": 0 }
       ]
     }
   ]
