@@ -7,7 +7,7 @@
 
 ## **No cloning required! Use the Free trial Web flasher link above or below!**
 <p align="left">
-  <img src="image3.png?v=2" width="450"> &nbsp; <img src="image2.png?v=2" width="450">  &nbsp; 
+  <img src="main.gif?v=2" width="450"> &nbsp; <img src="main2.gif?v=2" width="450">  &nbsp; 
   <img src="inuse.jpg?v=2" width="450"> &nbsp; <img src="inuse2.jpg?v=2" width="450">
 </p>
 
