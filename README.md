@@ -25,19 +25,20 @@ This project transforms a $15 ESP32-CYD into a **professional-grade 24/7 thermal
 > ⏳ **Extend ASIC Lifespan**  
 
 ---
-
 ## 🔥 Key Features
 
-* **Absolute Peak Monitoring (Tmax):** Monitors the *hottest single chip* in the array.  
-* **Stable Temps:** Maintains your target temperature regardless of ambient changes.  
-* **Longevity Target:** Lower operating temps = longer hardware life.  
+* **Tmax Thermal Control:** Actively monitors the *hottest ASIC chip* and maintains a target temperature regardless of ambient conditions.  
+* **Reduce ASIC Temps:** Typically lowers peak chip temperatures by **10°C+**.  
+* **Per-ASIC Diagnostics:** Monitor **all 12 ASIC chips individually** (temperature, voltage, throttling status).  
+* **Stable Operation:** Automatically adjusts work modes to maintain safe operating limits.  
 * **Persistent Best Share:** Keeps track across miner reboots.  
-* **Dashboard:** Real-time Hashrate (meter), Work Mode, Best Share, Target Tmax, Shares Accepted/Rejected, Uptime, Power in Watts.  
-* **Touchscreen Control:** Adjust Target Temp and Workmode directly.  
+* **Real-Time Dashboard:** Hashrate meter, Work Mode, Best Share, Target Tmax, Shares Accepted/Rejected, Uptime, Power usage.  
+* **Touchscreen Controls:** Adjust Target Temperature and Work Mode directly on the CYD display.  
+* **Web Interface:** Access diagnostics and controls from any phone or PC browser.  
 
 ---
 
-## 🆕 New: Self Update System
+## 🆕 New: Web interface-Easy Updates-System control-ASIC monitor
 
 After the initial flash from GitHub, the CYD now hosts a **built-in web updater**:
 
@@ -46,10 +47,43 @@ After the initial flash from GitHub, the CYD now hosts a **built-in web updater*
 * No USB connection needed no fiddly holding Boot / Reset etc.
 * Retains all license and configuration data  
 * Takes 15–45 seconds depending on WiFi  
-
->## See **Update.md** for full instructions.
-
 ---
+
+## 🔬 Per-ASIC Monitoring & Diagnostics
+
+The Ultra Controller now includes **full per-chip diagnostics** for the Avalon Nano.
+
+View detailed information for **all 12 ASIC chips** directly from the built-in web interface.
+
+### Live ASIC Data
+
+| Field | Description |
+|------|-------------|
+| ID | Chip number (0-11) |
+| Temp | Individual chip temperature |
+| Voltage | Operating voltage (mV) |
+| Delta | Voltage difference from baseline |
+| Status | OK / CAPPED / THROTTLED |
+
+### Color Status Indicators
+
+🟢 **OK**  
+Chip operating normally.
+
+⚪ **CAPPED**  
+Chip has reached thermal or voltage limits  
+(≥68°C or ≥10 mV delta).
+
+🔴 **THROTTLED**  
+Firmware heavily limiting the chip  
+(≥15 mV delta).
+
+This allows you to quickly identify:
+
+* weak ASIC chips
+* thermal imbalance
+* voltage instability
+* early hardware degradation---
 
 ## ⚡ Quick Start (No Cloning Required)
 
@@ -133,9 +167,10 @@ First power-on (or WiFi reset) → device creates **NanoCtrl-AP** network.
 | Parameter | Description | Default |
 |-----------|-------------|---------|
 | Previous Best Difficulty | Import all-time best | (empty) |
-| Enable Temp Buttons | Show temp buttons | 1 |
-| Enable Mode Buttons | Show workmode buttons | 1 |
+
+
 | License Key | Leave blank for trial | (empty) |
+|-----------|-------------|---------|
 
 **Advanced Hardware Settings**
 
