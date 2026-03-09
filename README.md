@@ -50,7 +50,7 @@ After the initial flash from GitHub, the CYD now hosts a **built-in web updater*
 ---
 <p align="left">
 
-  <img src="asic.png?v=2" width="400"> &nbsp;
+  <img src="Asic.png?v=2" width="400"> &nbsp;
 </p>
 
 ## 🔬 Per-ASIC Monitoring & Diagnostics
