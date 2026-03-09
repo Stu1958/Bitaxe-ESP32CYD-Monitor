@@ -48,6 +48,10 @@ After the initial flash from GitHub, the CYD now hosts a **built-in web updater*
 * Retains all license and configuration data  
 * Takes 15–45 seconds depending on WiFi  
 ---
+<p align="left">
+
+  <img src="asic.png?v=2" width="400"> &nbsp;
+</p>
 
 ## 🔬 Per-ASIC Monitoring & Diagnostics
 
