@@ -51,7 +51,7 @@ After the initial flash from GitHub, the CYD now hosts a **built-in web updater*
 
 ## 🔬 Per-ASIC Monitoring & Diagnostics
 
-The Ultra Controller now includes **full per-chip diagnostics** for the Avalon Nano.
+The Ultra Controller now includes **full per-chip status** for the Avalon Nano.
 
 View detailed information for **all 12 ASIC chips** directly from the built-in web interface.
 
