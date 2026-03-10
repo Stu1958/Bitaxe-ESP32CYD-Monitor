@@ -5,6 +5,7 @@ No installation required other than **Python 3**.
 If this tool was helpful, you can buy me a coffee or make a small donation:
 [Buy me a coffee](https://www.paypal.com/paypalme/stub1958)
 
+
 [Download File](https://raw.githubusercontent.com/Stu1958/Avalon-Nano-Ultra-Controller/main/PythonScript/nano_asic_monitor.pyc)  nano_asic_monitor.pyc
 ---
 
@@ -60,5 +61,6 @@ http://<your-computer-ip>:8080
 - **No internet connection** is required
 
 - It **does not modify miner settings** — it only reads statistics
+
 
 
