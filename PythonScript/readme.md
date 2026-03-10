@@ -2,7 +2,7 @@
 
 No installation required other than **Python 3**.
 
-If you find this useful you can buy me a coffee:  
+If this tool was helpful, you can buy me a coffee or make a small donation:
 [Buy me a coffee](https://www.paypal.com/paypalme/stub1958)
 
 ---
@@ -57,4 +57,5 @@ http://<your-computer-ip>:8080
 
 - The monitor runs **entirely locally**
 - **No internet connection** is required
+
 - It **does not modify miner settings** — it only reads statistics
