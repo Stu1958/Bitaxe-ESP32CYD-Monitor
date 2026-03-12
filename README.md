@@ -2,7 +2,7 @@
 <h3 align="center">Precision Thermal Management & Tmax (hotspot) Control runs on cheap ESP32 (CYD)</h3>
 
 [![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)
-[![eBay Shop](https://img.shields.io/badge/Pre--Built-eBay_(UK_Only)-orange?style=for-the-badge&logo=ebay)](https://www.ebay.co.uk/itm/206084391636)
+[![eBay Shop](https://img.shields.io/badge/Pre--Built-eBay_(UK_Only)-orange?style=for-the-badge&logo=ebay)](https://www.ebay.co.uk/itm/206126149086)
 [![License](https://img.shields.io/badge/Full_License-$5_USD-green?style=for-the-badge)](https://www.paypal.com/paypalme/stub1958/5USD)
 
 ## **No cloning required! Use the Free trial Web flasher link above or below!**
