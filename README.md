@@ -135,7 +135,7 @@ Perfect if you already own an ESP32-2432S028 (CYD).
 
 Don’t want to flash firmware or source parts?  
 
-* Buy fully assembled, licensed, tested unit on **[eBay](https://www.ebay.co.uk/itm/206084391636)**  
+* Buy fully assembled, licensed, tested unit on **[eBay](https://www.ebay.co.uk/itm/206126149086)**  206126149086
 * Hardware + permanent license included  
 * Ready to deploy  
 * UK shipping only
