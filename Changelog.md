@@ -1,47 +1,64 @@
-## Changelog
+# Changelog
 
-### Added
+## Added / Improved
+- Older **Nano 3** boards are now fully supported.
+- Compatibility expanded to support additional **CYD displays**:
+  - ST7789
+  - ILI9341
+- Added **Invert Colours** option.
+- Added **Backlight GPIO configuration** (available in setup).
+- Minimum **fan speed increased to 15%**.
+- **Fan speed adjustment** changed from fixed **5% steps** to **proportional control**.
 
-- ***New update procedure from 03/03/2026***
-  -If downloading for the first time use the Web flasher linked in the Readme
-  -For further updates use the esp32 web updater which will retain all your confured data, License etc
-  
-- Option in setup to display more Stats or Digital clock or both.
-  - Display Shares Accepted / Rejected followed by Uptime in days / hours
-  - Display digital clock  
-  - Or cycle both! every 3 - 10 seconds 
+## Display Options
+New setup options to customise the display:
 
-- Two new setup options for touch mapping:
-  - **Flip X**
-  - **Flip Y**
-  > If touch input appears rotated 180° relative to the LCD, enable both options.
+- Show **extended statistics**
+- Show **digital clock**
+- Show **both (cycling every 3–10 seconds)**
 
-- Startup screen is now verbose and displays:
-  - WiFi connection status  
-  - NTP connection status  
-  - License state  
+Statistics display includes:
+- **Shares Accepted / Rejected**
+- **Uptime (days / hours)**
 
-- 7-second centre screen press toggles button visibility.  
-- Holding for 12 seconds clears WiFi settings and reboots into setup  
-  *(all other settings are retained)*.
+## Touchscreen Configuration
+Two new setup options for touch mapping:
 
-- Compatibility expanded to support additional CYD's:
-  - ST7789  
-  - ILI9341  
-  - Invert colours option  
-  - Backlight GPIO configuration (available in setup)
+- **Flip X**
+- **Flip Y**
 
----
+If the touch input appears **rotated 180° relative to the LCD**, enable **both options**.
 
-### Changed
-- Minimum fan speed increased to **15%**.
-- Fan speed adjustment changed from fixed **5% step** to **proportional control**.
+## Startup Screen Improvements
+Startup screen is now more **verbose** and displays:
 
----
+- WiFi connection status
+- NTP connection status
+- License state
 
-### Fixed
-- Minor defect resolved:
-  - If the Nano rebooted, `Tmax` could become negative due to corrupt data.
-  - The CYD would correctly resync once the Nano reconnected.
-  - However, the "-" symbol remained on display despite logic restarting cleanly.
-  - Adjusted erase width during redraw to resolve the persistent display artifact.
+Holding the button for **12 seconds** will:
+
+- Clear **WiFi settings**
+- Reboot into **setup mode**
+
+All **other settings remain unchanged**.
+
+## Firmware Update Procedure (from 03/03/2026)
+
+- The **GitHub Web Flasher** is intended **for initial installation only**.
+- If installing the firmware **for the first time**, use the **Web Flasher linked in the README**.
+- After the initial installation, use the **app’s built-in Firmware Updater** for the latest update and all future updates.
+- For updates, download **`UpdateOnly.bin`** from the repository and upload it using the **app’s web updater**.
+- This method is **simpler** and **preserves all configured data**, including **settings and license information**.
+
+## Bug Fixes
+
+**Issue resolved:**
+
+If the **Nano rebooted**, `Tmax` could become negative due to corrupted data.
+
+- The **CYD** would correctly resync once the Nano reconnected.
+- However, the **“-” symbol remained on display** despite the logic restarting correctly.
+
+Fix implemented:
+- Adjusted erase width during display refresh to remove the artifact correctly.
