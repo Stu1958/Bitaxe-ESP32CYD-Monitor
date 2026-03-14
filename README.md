@@ -30,7 +30,6 @@ This project transforms a $15 ESP32-CYD into a **professional-grade 24/7 thermal
 * **Tmax Thermal Control:** Actively monitors the *hottest ASIC chip* and maintains a target temperature regardless of ambient conditions.  
 * **Reduce ASIC Temps:** Typically lowers peak chip temperatures by **10°C+**.  
 * **Per-ASIC Diagnostics:** Monitor **all 12 ASIC chips individually** (temperature, voltage, throttling status).  
-* **Stable Operation:** Automatically adjusts work modes to maintain safe operating limits.  
 * **Persistent Best Share:** Keeps track across miner reboots.  
 * **Real-Time Dashboard:** Hashrate meter, Work Mode, Best Share, Target Tmax, Shares Accepted/Rejected, Uptime, Power usage.  
 * **Touchscreen Controls:** Adjust Target Temperature and Work Mode directly on the CYD display.  
