@@ -103,7 +103,9 @@ This proves the system works — the license unlocks **true 24/7 protection**.
    * Nano name  
    * Nano IP  
    * Target Tmax  
-5. Click **Save** → Device reboots and begins managing Tmax.  
+5. Click **Save** → Device reboots and begins managing Tmax.
+### ⚡ **For the latest features after the initial flash download UpdateOnly.bin and use the app's own firmware updater**
+#### Much easier, flashes over WiFi, no USB connection required, no pressing boot buttons, reset etc!
 
 ### 60-Minute Stress Test
 
