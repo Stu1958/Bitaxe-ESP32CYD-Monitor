@@ -1,6 +1,8 @@
 # Changelog
 
 ## Core Improvements
+- Most frequently accessed settings now moved to Web page. These can be changed on the fly without rebooting to setup. (Beta)
+- Added Work Mode scheduling for those who have off peak electricity tariff's. (Beta)
 - Full **Nano 3 & Nano 3S** support *(auto-detects model)*
 - **Unified gentle PID fan control** for smoother temperature regulation
 - **Model-aware hashrate gauge scaling**
