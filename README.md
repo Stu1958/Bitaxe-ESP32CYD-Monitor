@@ -73,11 +73,11 @@ View detailed information for **all 12 ASIC chips** directly from the built-in w
 🟢 **OK**  
 Chip operating normally.
 
-⚪ **CAPPED**  
+⚪ **Optimised**  
 Chip has reached thermal or voltage limits  
 (≥68°C or ≥10 mV delta).
 
-🔴 **THROTTLED**  
+🔴 **Protected**  
 Firmware heavily limiting the chip  
 (≥15 mV delta).
 
