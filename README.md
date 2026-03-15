@@ -66,7 +66,7 @@ View detailed information for **all 12 ASIC chips** directly from the built-in w
 | Temp | Individual chip temperature |
 | Voltage | Operating voltage (mV) |
 | Delta | Voltage difference from baseline |
-| Status | OK / CAPPED / THROTTLED |
+| Status | OK / OPTIMISED / PROTECTED |
 
 ### Color Status Indicators
 
