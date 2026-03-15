@@ -34,6 +34,12 @@ This project transforms a $15 ESP32-CYD into a **professional-grade 24/7 thermal
 * **Real-Time Dashboard:** Hashrate meter, Work Mode, Best Share, Target Tmax, Shares Accepted/Rejected, Uptime, Power usage.  
 * **Touchscreen Controls:** Adjust Target Temperature and Work Mode directly on the CYD display.  
 * **Web Interface:** Access diagnostics and controls from any phone or PC browser.  
+* **Work Mode Scheduler:** Two independent time-based schedules automatically switch Low/Medium/High mode — ideal for cheap overnight electricity tariffs.  
+* **Web Settings Page:** Change all operational settings from your browser without triggering a WiFi reconfiguration.  
+* **Smart Fan Response:** Fan resets to 55% on every work mode change for faster, smoother thermal transitions.  
+* **Display Cycle Modes:** Choose between Clock+Data cycling or Data-only display.  
+* **Screen Timeout:** Configurable backlight auto-off to extend display life (0 = always on).  
+* **Auto-Reboot Nano:** Optional scheduled Nano reboot at a configurable interval.  
 
 ---
 
@@ -88,6 +94,43 @@ This allows you to quickly identify:
 * voltage instability
 * early hardware degradation---
 
+## 🗓️ Work Mode Scheduler
+
+Set your Nano to automatically switch work mode at specific times — perfect for cheap overnight electricity tariffs.
+
+* **Two independent schedule slots**, each with its own time and mode  
+* **Modes:** Off / Low / Medium / High  
+* **24-hour time format** — e.g. `23:00` to drop to Low overnight, `07:00` to return to High  
+* Requires NTP time sync — ensure your **UTC/GMT offset** is set correctly in initial setup  
+* Schedules trigger once per minute and reset automatically for the next day  
+* On **any** mode change (scheduled, web button, or touchscreen) the fan immediately resets to **55%** before PID takes over — faster, smoother thermal response  
+
+Configure both schedules from the **Web Settings page** — no WiFi reconfiguration needed.
+
+---
+
+## ⚙️ Web Settings Page
+
+A dedicated settings page in the web interface lets you change all operational parameters from any phone or PC browser, **without** disrupting your WiFi connection or triggering a reconfiguration.
+
+Open your browser → controller IP → **Settings**.
+
+| Setting | Description | Range / Options |
+|---------|-------------|-----------------|
+| Target Temperature | Tmax hotspot target | 60–85°C |
+| Screen Timeout | Backlight auto-off | 0 = always on, or minutes |
+| Centre Display Mode | Centre panel content | Clock+Data / Data Only |
+| Display Cycle Time | Time per screen | 2–60 seconds |
+| Auto-Reboot Nano | Scheduled Nano reboot | 0 = off, or hours |
+| Schedule 1 Time | First schedule trigger | HH:MM 24hr |
+| Schedule 1 Mode | Mode for Schedule 1 | Off / Low / Medium / High |
+| Schedule 2 Time | Second schedule trigger | HH:MM 24hr |
+| Schedule 2 Mode | Mode for Schedule 2 | Off / Low / Medium / High |
+
+All settings are saved to non-volatile storage (NVS) and survive reboots. A **Restart CYD** button is available at the bottom of the page.
+
+---
+
 ## ⚡ Quick Start (No Cloning Required)
 
 The **trial is 100% functional**, but resets every **60 minutes**.  
@@ -134,7 +177,7 @@ Perfect if you already own an ESP32-2432S028 (CYD).
 
 ### 🔌 Option B: Plug & Play Hardware (£25 — UK ONLY 🇬🇧)
 
-Don’t want to flash firmware or source parts?  
+Don't want to flash firmware or source parts?  
 
 * Buy fully assembled, licensed, tested unit on **[eBay](https://www.ebay.co.uk/itm/206126149086)**  206126149086
 * Hardware + permanent license included  
@@ -193,6 +236,8 @@ First power-on (or WiFi reset) → device creates **NanoCtrl-AP** network.
 - Horizontal flip → Flip X=1 only  
 - Vertical flip → Flip Y=1 only  
 
+> 💡 **Tip:** Scheduler, display modes, screen timeout, auto-reboot and cycle time are all configured via the **Web Settings page** after initial setup — no need to re-enter WiFi credentials to change them.
+
 ---
 
 ## 🔐 Licensing
@@ -217,18 +262,18 @@ Device ID required for license.
 - **Cannot access 192.168.4.1:** Disable mobile data, reconnect, or manually enter IP  
 - **Display issues:** Try Display Driver=0, Backlight=27, Color Invert=1  
 - **Touch issues:** Enable Flip options  
-- **Cannot connect to Nano:** Verify IP, power, router DHCP
+- **Cannot connect to Nano:** Verify IP, power, router DHCP  
+- **Scheduler not triggering:** Check UTC/GMT offset is correct — schedules require a successful NTP time sync  
+- **Settings not saving:** Ensure your device is on the same WiFi network as the CYD  
 
 ---
 
 ## ⚖️ Disclaimer
 
 Use at your own risk.  
-Provided “as-is.” Stu1958 not liable for damage, downtime, or lost profits.
+Provided "as-is." Stu1958 not liable for damage, downtime, or lost profits.
 
 ---
 
 **Developed by Stu1958**  
 Proprietary Software — All Rights Reserved
-
-
