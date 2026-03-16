@@ -9,7 +9,7 @@
   - **7 TH/s** for Nano **3S**
   - **5 TH/s** for **Nano 3**
 - **Model-specific reboot commands**
-- **String-based best share storage** (supports values >4.29G without overflow)
+
 
 ## Web Interface
 - **Professional web interface** with clean utility-style buttons
