@@ -1,6 +1,6 @@
 <h1 align="center">Bitaxe Monitor 🚀</h1>
 
-[![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)
+[![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Bitaxe-ESP32CYD-Monitor/)
 
 ## ⚡ Quick Start (No Cloning Required)
 
