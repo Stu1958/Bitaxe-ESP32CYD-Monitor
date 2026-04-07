@@ -16,7 +16,10 @@
         <p>Connect your CYD to your computer via USB to begin flashing.</p>
         
         <script type="module" src="https://unpkg.com/esp-web-tools@10/dist/web/install-button.js?module"></script>
-        <esp-web-install-button manifest="manifest.json"></esp-web-install-button>
+       <esp-web-install-button 
+  manifest="./manifest.json"
+  baudrate="921600">
+</esp-web-install-button>
 
         <div style="margin-top: 40px; font-size: 0.9em; text-align: left;">
             <b>Instructions:</b>
