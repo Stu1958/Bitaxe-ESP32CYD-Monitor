@@ -1,4 +1,4 @@
-<h1 align="center">ESP32 CYD (ESP32-2432S028R) Bitaxe Monitor 🚀</h1>
+<h1 align="center">Bitaxe Monitor for the ESP32 CYD (ESP32-2432S028R)🚀</h1>
 
 [![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Bitaxe-ESP32CYD-Monitor/)
 
