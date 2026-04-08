@@ -8,7 +8,7 @@ The **trial is 100% functional**, but resets every **30 minutes**.
 
 ### Steps:
 
-1. Open the **[Web Installer](https://stu1958.github.io/Avalon-Nano-Ultra-Controller/)** in Chrome, Edge, or Opera.  
+1. Open the **[Web Installer](https://stu1958.github.io/Bitaxe-ESP32CYD-Monitor/)** in Chrome, Edge, or Opera.  
 2. Connect your **CYD** via USB and click **Install**. Follow prompts (hold BOOT + RESET if needed).  
 3. Connect to **BitaxeCtrl-AP** WiFi (`config123`). Open browser → `192.168.4.1`.  
 4. Enter:
