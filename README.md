@@ -1,5 +1,7 @@
 <h1 align="center">Bitaxe Monitor for the ESP32 CYD (ESP32-2432S028R)🚀</h1>
 
+<p align="center"><img src="1.png" width="48%"> <img src="2.png" width="48%"></p>
+
 [![Free Trial](https://img.shields.io/badge/FREE_Trial-Flash_Now-blue?style=for-the-badge&logo=google-chrome)](https://stu1958.github.io/Bitaxe-ESP32CYD-Monitor/)
 
 ## ⚡ Quick Start (No Cloning Required)
